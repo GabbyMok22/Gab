@@ -1,0 +1,601 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: arial;
+}
+
+.container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto;
+}
+.hero{
+width: 100%;
+min-height: 100vh;
+background-color: #ffc1d9;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 10%;
+  overflow: hidden;
+  opacity: inherit;
+position: relative;
+}
+
+nav{
+padding: 10px 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.logo{
+width: 140px;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 10px 15px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #333;
+font-weight: 400;
+}
+
+.login-btn{
+text-decoration: none;
+color: #333;
+margin-rigth: 15px;
+font-weight: 400;
+}
+.btn{
+display: inline-block;
+text-decoration: none;
+padding: 14px 40px;
+color: #fff;
+background-image: linear-gradient(45deg, #df4881, #c430d7)
+font-size: 14px;
+border-radius: 30px;
+border-top-right-radius: 0;
+transition: 0.5s;
+}
+.content{
+margin-top: 10%;
+max-width: 600px;
+}
+
+.content{
+font-size: px30;
+color: #222;
+}
+.content p{
+margin: 10px 0 30px;
+color: #333;
+animation-delay: 0.5s;
+}
+
+.content .btn{
+padding: 15px 80px;
+font-size: 16px;
+animation-delay: 1s;
+}
+.feature-img.anim{
+animation-delay: 1.1s;
+}
+.btn:hover{
+border-top-right-radius: 30px;
+}
+.feature-img{
+width: 600px;
+ position: absolute;
+ bottom: 0;
+ right: 10%;
+}
+
+.anim{
+opacity: 0;
+transform: translateY(30px);
+animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.about{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #ffc1d9;
+}
+.about img{
+  height: auto;
+  width: 400px;
+}
+.about-text{
+width: 550px;
+}
+.main{
+width: 1130px;
+max-width: 95%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.about-text h2{
+  color: #ff0040;
+  font-size: 75px;
+  text-transform:capitalize;
+   margin-bottom: 20px;
+}
+.about-text h5{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p{
+color: black;
+letter-spacing: 1px;
+line-height: 28px;
+font-size: 18px;
+margin-bottom: 45px;
+}
+button{
+background-color: #ff0080;
+  color: black;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+button:hover{
+  background-color: transparent;
+  border: 2px solid 	#ff6666;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*footer section*/
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+footer p{
+text-align: center;
+}
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: #333;
+
+    color: white;
+
+    height: 4rem;
+}
+
+.logo {
+
+    font-size: 2rem;
+}
+
+nav {
+
+    width: 30rem;
+}
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+nav ul li a {
+
+    font-size: 1.2rem;
+
+    padding: 1rem;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+nav ul li a:hover {
+
+    background-color: #0dac30;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.reachUs-button {
+
+    padding: 1rem;
+
+    background-color: #0dac30;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+.reachUs-button:hover{
+
+    background-color: #1ac840;
+}
+
+/* banner section styles */
+.banner {
+
+    text-align: center;
+
+    background-color: #ffffff;
+
+    margin: 0 auto;
+}
+
+.banner img {
+
+    max-width: 100%;
+
+    height: auto;
+}
+/* Contact form styles */
+.contact-form {
+
+    padding: 40px 0;
+
+    margin: 0 10px;
+}
+
+.form-container {
+
+    max-width: 40%;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background-color: #ffffff;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-form h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+.form-group {
+
+    margin-bottom: 20px;
+}
+
+.form-container label {
+
+    display:block;
+
+    font-weight: bold;
+}
+.form-container input, textarea{
+
+    width: 100%;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    margin-bottom: 1rem;
+
+    resize: vertical;
+}
+.submit-button {
+
+    padding: 10px 20px;
+
+    background-color: #0dac30;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 4px;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+}
+
+/* Contact info styles */
+.contact-info {
+
+    text-align: center;
+
+    padding: 50px 0;
+
+    background-color: #f7f7f7;
+}
+
+
+.contact-info h2 {
+
+    margin-bottom: 20px;
+}
+
+
+/* Footer styles */
+footer {
+
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: #333;
+
+    color: white;
+}
+/* Hamburger styles */
+.hamburger {
+
+    display: none;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 1.5rem;
+
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+
+        display: none;
+
+    }
+
+
+    .hamburger {
+
+        display: flex;
+
+    }
+
+
+    #nav-menu {
+
+        position: absolute;
+
+        top: 4rem;
+
+        left: 0;
+
+        background-color: #333;
+
+        width: 100%;
+
+        display: none;
+
+    }
+
+
+    #nav-menu.active {
+
+        display: block;
+
+        flex-direction: row;
+
+        padding: 1rem;
+
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #ffc1d9;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+ul li:hover {
+    background-color: #2980b9;
+}
+
+#work .project {
+    margin-bottom: 20px;
+}
+
+#work img {
+    max-width: 100%;
+    height: auto;
+}
+
+#work p {
+    color: #555;
+
+}
+p{
+text-align: center;
+text-decoration-style: wavy;
+
+}
+/* Your existing styles go here */
+
+/* Styles for the Contact Me section */
+#contact {
+    margin-top: 50px;
+    color: #ff00ff;
+}
+
+#contact h2 {
+    color: #333;
+}
+
+#contact p {
+    color: #555;
+}
+
+#contactForm {
+    display: grid;
+    grid-gap: 20px;
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: #555;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contactForm button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #45a049;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    color: #555;
+}
+/* Your existing styles go here */
+
+/* Styles for the Skills section */
+#skills {
+    margin-top: 50px;
+}
+
+#skills h2 {
+    color: #333;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%;
+}
+
+.skill h3 {
+    color: #333;
+}
+
+.skill p {
+    color: #555;
+}
